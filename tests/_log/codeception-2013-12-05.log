@@ -1,0 +1,21 @@
+[2013-12-05 07:22:10] Codeception.INFO: PASSED [] []
+[2013-12-05 07:24:28] Codeception.INFO: PASSED [] []
+[2013-12-05 07:24:51] Codeception.ALERT: test
+Failed asserting that plask Object () is true. [] []
+[2013-12-05 07:24:51] Codeception.INFO: # FAILED # [] []
+[2013-12-05 07:24:51] Codeception.INFO: PASSED [] []
+[2013-12-05 07:25:13] Codeception.ALERT: test
+Failed asserting that plask Object () is true. [] []
+[2013-12-05 07:25:13] Codeception.INFO: # FAILED # [] []
+[2013-12-05 07:25:13] Codeception.INFO: PASSED [] []
+[2013-12-05 07:26:09] Codeception.ALERT: Undefined property: plask::$slask [] []
+[2013-12-05 07:26:09] Codeception.INFO: # ERROR # [] []
+[2013-12-05 07:26:09] Codeception.INFO: PASSED [] []
+[2013-12-05 07:26:24] Codeception.ALERT: Undefined property: plask::$slask [] []
+[2013-12-05 07:26:24] Codeception.INFO: # ERROR # [] []
+[2013-12-05 07:26:24] Codeception.INFO: PASSED [] []
+[2013-12-05 07:26:58] Codeception.ALERT: test
+Failed asserting that 'test' is true. [] []
+[2013-12-05 07:26:58] Codeception.INFO: # FAILED # [] []
+[2013-12-05 07:26:58] Codeception.INFO: PASSED [] []
+[2013-12-05 07:27:07] Codeception.INFO: PASSED [] []

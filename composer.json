@@ -1,0 +1,8 @@
+{
+	"require": {
+		"codeception/codeception": "1.8.0.1"
+	},
+	"autoload": {
+		"classmap": ["app/"]
+	}
+}

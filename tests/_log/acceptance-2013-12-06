@@ -1,0 +1,26 @@
+[2013-12-06 07:30:44] WelcomeCept.php.INFO: PASSED [] []
+[2013-12-06 07:38:20] WelcomeCept.php.INFO: am on page "public" [] []
+[2013-12-06 07:38:20] WelcomeCept.php.INFO: see "Välkommen Greddan" [] []
+[2013-12-06 07:38:20] WelcomeCept.php.ALERT: Failed asserting that 
+-->  <bold>/codeception/public/</bold><info>Plask 	Välkommen</info>
+--> contains "v�lkommen greddan". [] []
+[2013-12-06 07:38:20] WelcomeCept.php.INFO: # FAILED # [] []
+[2013-12-06 07:38:20] WelcomeCept.php.INFO: PASSED [] []
+[2013-12-06 07:38:41] WelcomeCept.php.INFO: am on page "public" [] []
+[2013-12-06 07:38:41] WelcomeCept.php.INFO: see "Välkommen Greddan" [] []
+[2013-12-06 07:38:41] WelcomeCept.php.ALERT: Failed asserting that 
+-->  <bold>/codeception/public/</bold><info>Plask 	Välkommen</info>
+--> contains "v�lkommen greddan". [] []
+[2013-12-06 07:38:41] WelcomeCept.php.INFO: # FAILED # [] []
+[2013-12-06 07:38:41] WelcomeCept.php.INFO: PASSED [] []
+[2013-12-06 08:01:43] WelcomeCept.php.INFO: am on page "public" [] []
+[2013-12-06 08:01:43] WelcomeCept.php.INFO: see "Välkommen Greddan" [] []
+[2013-12-06 08:01:43] WelcomeCept.php.ALERT: Failed asserting that 
+-->  <bold>/codeception/public/</bold><info>Plask 	Välkommen</info>
+--> contains "v�lkommen greddan". [] []
+[2013-12-06 08:01:43] WelcomeCept.php.INFO: # FAILED # [] []
+[2013-12-06 08:01:43] WelcomeCept.php.INFO: PASSED [] []
+[2013-12-06 08:02:10] WelcomeCept.php.INFO: am on page "public" [] []
+[2013-12-06 08:02:10] WelcomeCept.php.INFO: see "Välkommen Greddan" [] []
+[2013-12-06 08:02:10] WelcomeCept.php.INFO: PASSED [] []
+[2013-12-06 19:16:29] WelcomeCept.php.INFO: PASSED [] []
