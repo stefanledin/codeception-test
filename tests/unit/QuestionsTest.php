@@ -12,7 +12,7 @@ class QuestionsTest extends \PHPUnit_Framework_TestCase
         ];
         $this->wrongAnswers = [
             'question1' => 'alt1',
-            'question2' => 'alt2'
+            'question2' => 'alt3'
         ];
         $this->invalid = [
             'question1' => 'alt1',
@@ -30,9 +30,19 @@ class QuestionsTest extends \PHPUnit_Framework_TestCase
         // Kolla så att alla frågor är ifyllda
         $this->assertTrue($this->questions->validate($this->wrongAnswers));
         $this->assertFalse($this->questions->validate($this->invalid));
-        // Annars ska man redirectas tillbaka till index
-        // Om alla frågor är ifyllda så ska resultatet räkas ihop
-        // Resultatet ska returneras och visas på sidan.
+    }
+
+    public function test_extract_assoc_array_to_index()
+    {
+        $expected = ['alt1', 'alt2'];
+        $result = $this->questions->extractQuestions($this->rightAnswers);
+        $this->assertEquals($this->questions->extractQuestions($result), $expected);
+    }
+
+    public function test_count_right_answers()
+    {
+        $this->assertEquals($this->questions->countRightAnswers($this->rightAnswers), 2);
+        $this->assertEquals($this->questions->countRightAnswers($this->wrongAnswers), 1);
     }
 
 }
